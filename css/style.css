@@ -131,9 +131,9 @@ nav h3{
     animation: border-pulsate 1.5s infinite;
 }
 @keyframes border-pulsate {
-    0%   { border: 1px dotted rgba(43, 148, 100, 1); }
-    50%  { border: 1px dotted rgba(43, 148, 100, 0.5); }
-    100% { border: 1px dotted rgba(43, 148, 100, 1); }
+    0%   { border: 1px solid rgba(43, 148, 100, 1); }
+    50%  { border: 1px solid rgba(43, 148, 100, 0.5); }
+    100% { border: 1px solid rgba(43, 148, 100, 1); }
 }
 
 .bullet
