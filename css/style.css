@@ -1,0 +1,181 @@
+body {
+  color:  #E9514C;
+  background-image: linear-gradient(to bottom, #d96459, #c65c55, #b25450, #9f4d4b, #8c4646);
+  font-family: 'Roboto Mono', monospace;
+  height: 100vh;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  /* background-image: linear-gradient(to top, #d96459, #c65c55, #b25450, #9f4d4b, #8c4646); */
+  margin-bottom: 20px;
+  text-align: center;
+}
+h1{
+  font-weight: bold;
+  font-size: 100px;
+  display: inline;
+  color: #5A6A62;
+}
+nav h3{
+  display: inline;
+  float: right;
+  margin-top: 40px;
+  margin: 50px 30px 0 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+.wrap-main{
+  margin: 0 auto;
+  width: 900px;
+  align-content: center;
+  display: flex;
+
+}
+.controls button{
+
+  padding: 10px;
+  margin: 8px auto;
+  display: block;
+  border-radius: 5%;
+  background-color: #C6D5CD;
+  border: 2px solid grey;
+}
+.controls{
+  padding: 10px;
+  width: 150px;
+  height: 180px;
+  background-color: #5A6A62;
+  background-image: url("https://www.transparenttextures.com/patterns/squared-metal.png");
+  margin: 0 20px 0 0;
+  text-align: center;
+  border-radius: 2%;
+}
+.controls h3{
+  background: white;
+}
+.map-wrap{
+  width: 520px;
+  height: 520px;
+
+
+}
+.mobs{
+  width: 35px;
+  height: 35px;
+  float: left;
+  position: absolute;
+  margin: 11px 0px 0px 7px;
+  text-align: center;
+  border-radius: 100%;
+  /* background-image: url('../images/images.jpeg');
+  background-size: contain; */
+  background: radial-gradient(#FDF200, #C6D5CD, #5A6A62 );
+
+}
+
+.mobs .life-bar{
+  width: 35px;
+  height: 5px;
+  position: absolute;
+  background-color: red;
+  top: -10px;
+
+
+}
+.mobs .health-bar{
+  height: 5px;
+  position: absolute;
+  background-color: #76f576;
+  top: -10px;
+
+}
+.basetile{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.grass{
+  border: 1px dotted #D96459  ;
+  background-color: #D96459  ;
+  background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+
+}
+.path{
+  border: 1px dotted #851400;
+  background-color: #851400;
+  background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+}
+.entrance{
+  background-color: #2B9464;
+  border: 1px dotted #2B9464;
+}
+.exit{
+  background-color: #D14D28;
+  border: 1px dotted #D14D28;
+}
+.tower1{
+  background-color: #666666;
+  border: 1px dotted #666666;
+}
+.tower2{
+  background-color: #000000;
+  border: 1px dotted #000000;
+}
+.tower3{
+  background-color: #CCCCCC;
+  border: 1px dotted #CCCCCC;
+}
+.availableTile{
+    border: 1px dotted #2B9464;
+    animation: border-pulsate 1.5s infinite;
+}
+@keyframes border-pulsate {
+    0%   { border: 1px dotted rgba(43, 148, 100, 1); }
+    50%  { border: 1px dotted rgba(43, 148, 100, 0.5); }
+    100% { border: 1px dotted rgba(43, 148, 100, 1); }
+}
+
+.bullet
+{
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  position: absolute;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 8% auto; /* 15% from the top and centered */
+    padding: 50px;
+    border: 1px solid #888;
+    width: 49%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    height: 38%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
