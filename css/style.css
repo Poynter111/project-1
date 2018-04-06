@@ -119,6 +119,7 @@ nav h3{
   border: 1px dotted #D96459  ;
   background-color: #D96459  ;
   background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
+  background-size: contain;
 
 }
 .path{
@@ -133,6 +134,9 @@ nav h3{
 .exit{
   background-color: #D14D28;
   border: 1px dotted #D14D28;
+  background-image: url('../images/castle.png');
+  /* background-image: url("https://www.transparenttextures.com/patterns/gravel.png"); */
+  background-size: contain;
 }
 .tower1{
   background-color: #666666;
