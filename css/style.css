@@ -8,14 +8,16 @@ nav {
   width: 100%;
   height: 100px;
   /* background-image: linear-gradient(to top, #d96459, #c65c55, #b25450, #9f4d4b, #8c4646); */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   text-align: center;
+  margin: 50px 0 20px 0;
 }
 h1{
   font-weight: bold;
   font-size: 100px;
   display: inline;
   color: #5A6A62;
+  margin-left: 130px;
 }
 nav h3{
   display: inline;
@@ -23,7 +25,8 @@ nav h3{
   margin-top: 40px;
   margin: 50px 30px 0 0;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
+  color: white;
 }
 .wrap-main{
   margin: 0 auto;
@@ -35,7 +38,7 @@ nav h3{
 .controls button{
 
   padding: 10px;
-  margin: 8px auto;
+  margin: 15px auto;
   display: block;
   border-radius: 5%;
   background-color: #C6D5CD;
@@ -49,10 +52,27 @@ nav h3{
   background-image: url("https://www.transparenttextures.com/patterns/squared-metal.png");
   margin: 0 20px 0 0;
   text-align: center;
-  border-radius: 2%;
+  border-radius: 5%;
+}
+.inst{
+  padding: 10px;
+  width: 150px;
+  height: 180px;
+  background-color: #5A6A62;
+  background-image: url("https://www.transparenttextures.com/patterns/squared-metal.png");
+  margin: 0 0 0 20px;
+  text-align: center;
+  border-radius: 5%;
 }
 .controls h3{
   background: white;
+}
+.inst h3{
+  background: white;
+}
+.inst p{
+  background-color: white;
+  font-size: 12px;
 }
 .map-wrap{
   width: 520px;
@@ -70,7 +90,7 @@ nav h3{
   border-radius: 100%;
   /* background-image: url('../images/images.jpeg');
   background-size: contain; */
-  background: radial-gradient(#FDF200, #C6D5CD, #5A6A62 );
+  background: radial-gradient(#69D2E7 1px, #C6D5CD 5px, #5A6A62 10px );
 
 }
 
@@ -159,11 +179,13 @@ nav h3{
 .modal-content {
     background-color: #fefefe;
     margin: 8% auto; /* 15% from the top and centered */
-    padding: 50px;
+    padding: 30px;
     border: 1px solid #888;
-    width: 49%; /* Could be more or less, depending on screen size */
+    width: 30%; /* Could be more or less, depending on screen size */
     text-align: center;
-    height: 38%;
+    height: 20%;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 /* The Close Button */
