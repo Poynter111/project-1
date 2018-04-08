@@ -21,9 +21,12 @@ He will start straight away so make sure you are quick
 # Approach Taken
 
 #### Deciding on genre of game
+Upon doing initial research it became clear that this was a very doable task even if i wasnt going
 
 # Wins
 
 # Blockers
 
 # Future Features
+* multiple mininons
+* fix tower bullet bug
